@@ -24,7 +24,7 @@ let findSixCharacter = () =>
 
 function colored()
 { 
- let word = findSixCharacter();
+  let word = findSixCharacter();
 
   let newText = wordArr.map(element=>
   {
@@ -51,7 +51,7 @@ let strikeArr=[];
 function strikeAll ()
 {
   let allColored = wordArr.map(element=>
-    {
+      {
       if(strikeArr.includes(element))
       {
         return '<span class="strike">' + element + '</span>'
@@ -76,16 +76,3 @@ striked.onclick = () =>
   warningText.removeAttribute('hidden'): 
   strikeAll() ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
