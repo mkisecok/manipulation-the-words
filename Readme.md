@@ -1,5 +1,7 @@
 ## Project of The Week
 
+### Resul-Link:https://mkisecok.github.io/manipulation-the-words/
+
 Let's start with simple Javascript exercise that also includes DOM manipulation. We will have a random text and two buttons. When the first button is clicked, any of the words that is longer than 6 characters should be highlighted in red. When the second button is clicked, all the highlighted words should be striked-through.
 
 Don't forget to create a folder for your exercise and let us know when you create pr for it!
